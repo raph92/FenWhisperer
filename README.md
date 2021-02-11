@@ -10,9 +10,12 @@ The goal of this program is to assist with analyzing chess games
   - Shows whether white or black have more pieces attacking a square.
   - Quanitifies the square dominance
     - A negative number means that black is dominating and vice-versa
+    
 ## Screenshots
-
-<img src="https://i.imgur.com/ijeat6Y.png" width="400">
+<div>
+<img src="https://i.imgur.com/ijeat6Y.png" width="300">
+<img src="https://i.imgur.com/6y58Y4r.png" width="300" style="margin-left: 3px">
+</div>
 
 ## How it works
 This client starts a websocket that listens on port 5002 and listens for FEN strings.
