@@ -18,6 +18,10 @@ The goal of this program is to assist with analyzing chess games
 </div>
 
 ## How it works
-This client starts a websocket that listens on port 5002 and listens for FEN strings.
-The format of the message it is anticipating is `fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/2BQKBNR w Kkq - 0 1`.
+This client starts a websocket that listens on port **5002** and listens for FEN strings.
+
+### Message Format
+```
+fen rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/2BQKBNR w Kkq - 0 1
+```
 Once it receives that message it will then recreate that game state and calculate the dominance and attack states of squares and pieces, respectively.
